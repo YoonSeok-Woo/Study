@@ -31,7 +31,7 @@
 * Untracked - 무대에 올라온 적이 없는
 * `git status` 로 확인
 
-![untracked example](C:\Users\YoonSeok\Desktop\TIL\git_status_Untracked.PNG)
+![untracked example](.\git_status_Untracked.PNG)
 
 ###  git 커맨드라인
 
