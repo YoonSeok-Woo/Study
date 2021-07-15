@@ -23,13 +23,17 @@
 ### git 파일라이프 사이클
 
 * Working Directory의 모든 파일은 각 단계별 특정 상태를 가짐
+
 * Tracked
   * unmodified - 수정 전
   * modified - 수정 후
   * staged - 무대에 올라와 있는
 
 * Untracked - 무대에 올라온 적이 없는
-* `git status` 로 확인![git_status_Untracked](git_summary.assets/git_status_Untracked.PNG)
+
+* `git status` 로 확인
+
+  ![git_status_Untracked](git_summary.assets/git_status_Untracked.PNG)
 
 ###  git 커맨드라인
 
