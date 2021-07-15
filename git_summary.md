@@ -39,7 +39,7 @@
 
 * `git add "경로"` 경로를 스테이지에 추가
 * `git commit -m "커밋 이름"` 현재 버전을 커밋에 추가
-* `git log` 로그 확인(버전들 수정한사람, 버전명 등등)![git_log](git_summary.assets/git_log.PNG)
+* `git log` 로그 확인(버전들 수정한사람, 버전명 등등)<br>![git_log](git_summary.assets/git_log.PNG)
 
 * `git status` 상태 확인(변경되어 있다면 붉은색으로 표시)
 * `git restore --staged "경로"` 해당 경로를 스테이지에서 내림
