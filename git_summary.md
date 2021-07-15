@@ -29,9 +29,7 @@
   * staged - 무대에 올라와 있는
 
 * Untracked - 무대에 올라온 적이 없는
-* `git status` 로 확인
-
-![untracked example](.\git_status_Untracked.PNG)
+* `git status` 로 확인![git_status_Untracked](git_summary.assets/git_status_Untracked.PNG)
 
 ###  git 커맨드라인
 
@@ -41,7 +39,7 @@
 * `git status` 상태 확인(변경되어 있다면 붉은색으로 표시)
 * `git restore --staged "경로"` 해당 경로를 스테이지에서 내림
 * `git remote add origin 링크` 사실 깃헙에서 커맨드 복사해오면됨 일단 깃헙 리포지토리 업로드
-* `git push --set-upstream origin master` upstream branch 생성
+* `git push --set-upstream origin master` 처음으로 푸시를 하게 될 때 온라인 branch와 로컬 branch 연결
 * `git push` 변경 후 업데이트할 때
 * `git pull` 변경된 것 다운받을 때
 * `git clone 링크` 나한테 없는 깃을 다운받을 때 
