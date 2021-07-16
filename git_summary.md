@@ -40,7 +40,7 @@
 * `git add "경로"` 경로를 스테이지에 추가
 * `git commit -m "커밋 이름"` 현재 버전을 커밋에 추가
 * `git log` 로그 확인(버전들 수정한사람, 버전명 등등)<br>![git_log](git_summary.assets/git_log.PNG)
-
+* `git reflog` reset등으로 사라진 로그도 전부 표시
 * `git status` 상태 확인(변경되어 있다면 붉은색으로 표시)
 * `git restore --staged "경로"` 해당 경로를 스테이지에서 내림
 * `git remote add origin 링크` 사실 깃헙에서 커맨드 복사해오면됨 일단 깃헙 리포지토리 업로드
@@ -48,3 +48,20 @@
 * `git push` 변경 후 업데이트할 때
 * `git pull` 변경된 것 다운받을 때
 * `git clone 링크` 나한테 없는 깃을 다운받을 때 
+
+### git branch
+
+* 가지치기하는 행위
+* 메인 버전(master)를 큰 줄기삼아 가지를 쳐서 수정버전을 만들고 합쳐가며 작업하기 위한 기능
+* `git branch 브랜치 이름` 으로 생성
+* `git checkout 브랜치이름`으로 브랜치 이동
+* `git merge 브랜치이름`으로 브랜치 합치기
+* `git -d 브랜치이름`으로 브랜치 삭제(-D로 삭제할 경우 머지가 안됐더라도 삭제가능(뒷감당은 맘대로))
+* 브랜치 합칠 때 최신버전을 골라줘야함
+
+### git reset
+
+* 버전 되돌아 가고 싶을 때 사용
+* --soft : working directory, staging area 모두 유지 
+* --hard : 모두 리셋
+* --mixed(default) : staging area 만 변경 
