@@ -29,3 +29,12 @@ DELETE FROM classmates WHERE rowid = 5;
 INSERT INTO classmates VALUES('최전자',28,'부산');
 
 UPDATE classmates SET name='홍길동',adress = '제주도' WHERE rowid=5
+
+CREATE TABLE users(
+first_name TEXT NOT NULL,
+last_name TEXT NOT NULL,
+age INTEGER NOT NULL,
+country TEXT NOT NULL,
+phone TEXT NOT NULL,
+balance INTEGER NOT NULL
+);
